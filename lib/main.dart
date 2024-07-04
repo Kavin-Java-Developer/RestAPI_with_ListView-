@@ -41,7 +41,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: Color.fromRGBO(37, 211, 102, 5),
         title: Text('Rest API'),
         actions: [
           IconButton(
@@ -90,7 +90,10 @@ class _MyAppState extends State<MyApp> {
                         (entry) => (entry)['id'] == data[index]['id']);
                   });
                 },
-                icon: Icon(Icons.delete),
+                icon: Icon(
+                  Icons.delete,
+                  color: Color.fromRGBO(37, 211, 102, 5),
+                ),
               ),
             );
           }),
