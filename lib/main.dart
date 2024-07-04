@@ -41,7 +41,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color.fromRGBO(37, 211, 102, 5),
+        backgroundColor: Color.fromRGBO(37, 211, 102, 6),
         title: Text('Rest API'),
         actions: [
           IconButton(
@@ -92,7 +92,7 @@ class _MyAppState extends State<MyApp> {
                 },
                 icon: Icon(
                   Icons.delete,
-                  color: Color.fromRGBO(37, 211, 102, 5),
+                  color: Color.fromRGBO(37, 211, 102, 6),
                 ),
               ),
             );
